@@ -27,6 +27,7 @@ class App extends Component {
             className="Button"
             onClick={()=>
                 this.setState(prevState => ({showBlock:!prevState.showBlock}))}>Toggle</button>
+          <br/>
         <Transition
             in={this.state.showBlock}
             timeout={1000}
